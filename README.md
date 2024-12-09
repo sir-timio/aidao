@@ -7,6 +7,6 @@
 - Combined binary target for ALL_GOOD class: final_label = 1 - int((fraud_label == 0) & (damage_label == 0))
 - Drop inconsistent annotations
 - Complex, class-specific augmentations from imgaug
-- CrossEntropy losses for all heads
+- CrossEntropy loss for each head
 - CosineAnnealingWarmRestarts scheduler, AdamW optimizer
 ![alt text](stand.png)
